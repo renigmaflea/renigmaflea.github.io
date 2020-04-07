@@ -29,21 +29,6 @@ The landing page is presented to users when they visit the top-level URL to the 
 
 ![](images/renigma-flea-landing.PNG)
 
-### Index pages (Projects, Profiles, Interests)
-
-Renigma Flea provides several pages: the profile, Categories, Listing Items, Creating items, and Offering Items.
-
-The Profiles page shows all the current defined profiles and their associated Projects and Interests:
-
-![](images/profiles-page.png)
-
-The Projects page shows all of the currently defined Projects and their associated Profiles and Interests:
-
-![](images/projects-page.png)
-
-Finally, the Interests page shows all the currently defined Interests, and their associated Profiles and Projects:
-
-![](images/interests-page.png)
 
 
 ### Sign in and sign up
@@ -54,13 +39,9 @@ Click on the "Login" button in the upper right corner of the navbar, then select
 
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
-![](images/signup-page.png)
+![](images/renigma-flea-signup.PNG)
 
-### Home page
 
-After logging in, you are taken to the home page, which presents a form where you can complete and/or update your personal profile:
-
-![](images/home-page.png)
 
 ### Search For Listings
 
