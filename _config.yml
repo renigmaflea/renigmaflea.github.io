@@ -2,7 +2,7 @@ title: RenigmaFlea
 description: The quintessential flea market app
 google_analytics:
 show_downloads: false
-theme: jekyll-theme-cayman
+theme: jekyll-theme-slate
 github:
   is_project_page: true
   repository_url: https://github.com/renigmaflea/renigmaflea.github.io
