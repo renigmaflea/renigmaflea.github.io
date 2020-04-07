@@ -10,38 +10,28 @@
 
 ## Overview
 
-BowFolios is an example web application that provides pages to view and (in some cases) modify profiles, projects, and interests. It illustrates various technologies useful to ICS software engineering students, including:
+Renigma is a web application for UH students, faculty, and staff to buy and sell. 
 
-* [Meteor](https://www.meteor.com/) for Javascript-based implementation of client and server code.
-* [React](https://reactjs.org/) for component-based UI implementation and routing.
-* [Semantic UI React](https://react.semantic-ui.com/) CSS Framework for UI design.
-* [Uniforms](https://uniforms.tools/) for React and Semantic UI-based form design and display.
+It is designed to be a Craigslist alternative with factors such as:
 
-It also provides code that implements a variety of useful design concepts, including:
-
-* Three primary collections (Profiles, Projects, Interests) as well as three "join" Collections (ProfilesInterests, ProfilesProjects, and ProjectsInterests) that implement many-to-many relationships between them.
-* Top-level index pages (Profiles, Interests, and Projects) that show how to manipulate these six collections in various ways.
-* Initialization code to define default Profiles, Interests, and Projects and relations between them.
-* A simple Filter page to illustrate how to perform simple queries on the database and display the results.
-* Use of Meteor Methods to illustrate how to simplify implementation of multiple collection updates.
-* Use of indexes to enforce uniqueness of certain fields in the collections, enabling them to serve as primary keys.
-* Authentication using the built-in Meteor accounts package along with Sign Up and Sign In pages.
-* Authorization examples: certain pages are public (Profiles, Projects, Interests), while other pages require login (AddProject, Filter).
-* Use of Meteor Assets to initialize the database (helpful when initialization exceeds settings file size limits).
+* Buyers and sellers must be UH students, faculty, or staff. (See “Beyond the Basics” for a way to enforce this.)
+* There is no anonymity: buyers and sellers connect through their UH credentials.
+* Transactions are expected to occur on-campus. If a seller wants to meet off-campus, that can be a red-flag.
+* Because buyers and sellers are from UHM, the goods and services will be relevant to UH students.
 
 ## User Guide
 
-This section provides a walkthrough of the Bowfolios user interface and its capabilities.
+This section will provide a walkthrough of using Renigma Flea's user interface and how to start your Flea Market Career.
 
 ### Landing Page
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-![](images/landing-page.png)
+![](images/renigma-flea-landing.PNG)
 
 ### Index pages (Projects, Profiles, Interests)
 
-Bowfolios provides three public pages that present the contents of the database organized in various ways.
+Renigma Flea provides several pages: the profile, Categories, Listing Items, Creating items, and Offering Items.
 
 The Profiles page shows all the current defined profiles and their associated Projects and Interests:
 
@@ -60,7 +50,7 @@ Finally, the Interests page shows all the currently defined Interests, and their
 
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
 
-![](images/signin-page.png)
+![](images/Renigma-Flea-Login.PNG)
 
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
@@ -72,18 +62,18 @@ After logging in, you are taken to the home page, which presents a form where yo
 
 ![](images/home-page.png)
 
-### Add Project page
+### Search For Listings
 
-Once you are logged in, you can define new projects with the Add Project page:
+This page will allow users to search for listings created by fellow Alumni.
 
-![](images/add-project-page.png)
+![](images/renigma-flea-searched-listings.PNG)
 
 
-### Filter page
+### Add Listings
 
-The Filter page provides the ability to query the database and display the results in the page. In this case, the query displays all of the Profiles that match one or more of the specified Interest(s).
+This page will allow users to add listings for sell.
 
-![](images/filter-page.png)
+![](images/renigma-flea-add-listing.PNG)
 
 ## Community Feedback
 
