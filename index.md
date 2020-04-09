@@ -60,7 +60,14 @@ This page will allow users to add listings for selling.
 
 ## Community Feedback
 
-We are interested in your experience using Bowfolio! You can contact us directly by direct messaging any of our member on [Github](https://github.com/renigmaflea/renigmaflea).
+We are interested in your experience using Bowfolio! You can contact us directly by direct messaging any of our members on [Github](https://github.com/renigmaflea/renigmaflea)
+
+### Team Members
+* Patima Poochai
+* Justin Wong
+* Andrew Edward Emmons
+* Dean Fujimoto
+* Daniel Florenco
 
 ## Developer Guide
 
