@@ -4,13 +4,11 @@
 * [User Guide](#user-guide)
 * [Community Feedback](#community-feedback)
 * [Developer Guide](#developer-guide)
-* [Development History](#development-history)
-* [Walkthrough videos](#walkthrough-videos)
-* [Example enhancements](#example-enhancements)
+* [Beyond the Basics](#beyond-the-basics)
 
 ## Overview
 
-Renigma is a web application for UH students, faculty, and staff to buy and sell. 
+Renigma is a web application for UH students, faculty, and staff to buy and sell goods. 
 
 It is designed to be a Craigslist alternative with factors such as:
 
@@ -41,7 +39,11 @@ Alternatively, you can select "Sign up" to go to the following page and register
 
 ![](images/renigma-flea-signup.PNG)
 
+### Categories (mock up)
 
+Users can browse through categories of items that is commonly bought or sold within the UH Manoa campus.
+
+![](images/categories.png)
 
 ### Search For Listings
 
@@ -52,13 +54,13 @@ This page will allow users to search for listings created by fellow Alumni.
 
 ### Add Listings
 
-This page will allow users to add listings for sell.
+This page will allow users to add listings for selling.
 
 ![](images/renigma-flea-add-listing.PNG)
 
 ## Community Feedback
 
-We are interested in your experience using Bowfolio!  If you would like, please take a couple of minutes to fill out the [Bowfolios Feedback Form](https://forms.gle/hBHdccQEbm4YNfPd6). It contains only five short questions and will help us understand how to improve the system.
+We are interested in your experience using Bowfolio! You can contact us directly by direct messaging any of our member on [Github](https://github.com/renigmaflea/renigmaflea).
 
 ## Developer Guide
 
@@ -86,22 +88,7 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 ### Application Design
 
-Bowfolios is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Bowfolios.
-
-### Data model
-
-As noted above, the Bowfolios data model consists of three "primary" collections (Projects, Profiles, and Interests), as well as three "join" Collections (ProfilesProjects, ProfilesInterests, and ProjectsInterests).  To understand this design choice, consider the situation where you want to specify the projects associated with a Profile.
-
-Design choice #1: Provide a field in Profile collection called "Projects", and fill it with an array of project names. This choice works great when you want to display a Profile and indicate the Projects it's associated with.  But what if you want to go the other direction: display a Project and all of the Profiles associated with it?  Then you have to do a sequential search through all of the Profiles, then do a sequential search through that array field looking for a match.  That's computationally expensive and also just silly.
-
-Design choice #2:  Provide a "join" collection where each document contains two fields: Profile name and Project name. Each entry indicates that there is a relationship between those two entities. Now, to find all the Projects associated with a Profile, just search this collection for all the documents that match the Profile, then extract the Project field. Going the other way is just as easy: to find all the Profiles associated with a Project, just search the collection for all documents matching the Project, then extract the Profile field.
-
-Bowfolios implements Design choice #2 to provide pair-wise relations between all three of its primary collections:
-
-![](images/data-model.png)
-
-The fields in boldface (Email for Profiles, and Name for Projects and Interests) indicate that those fields must have unique values so that they can be used as a primary key for that collection. This constraint is enforced in the schema definition associated with that collection.
-
+Renigma Flea is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Renigma Flea.
 
 ## Initialization
 
@@ -126,77 +113,16 @@ ESLint should run without generating any errors.
 
 It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
 
-### From mockup to production
-
-Bowfolios is meant to illustrate the use of Meteor for developing an initial proof-of-concept prototype.  For a production application, several additional security-related changes must be implemented:
-
-* Use of email-based password specification for users, and/or use of an alternative authentication mechanism.
-* Use of https so that passwords are sent in encrypted format.
-* Removal of the insecure package, and the addition of Meteor Methods to replace client-side DB updates.
-
-(Note that these changes do not need to be implemented for ICS 314, although they are relatively straightforward to accomplish.)
-
-## Development History
-
-The development process for BowFolios conformed to [Issue Driven Project Management](http://courses.ics.hawaii.edu/ics314f19/modules/project-management/) practices. In a nutshell:
-
-* Development consists of a sequence of Milestones.
-* Each Milestone is specified as a set of tasks.
-* Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
-* Tasks should typically consist of work that can be completed in 2-4 days.
-* The work for each task is accomplished with a git branch named "issue-XX", where XX is replaced by the issue number.
-* When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
-* The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
-
-The following sections document the development history of BowFolios.
-
-### Milestone 1: Mockup development
-
-The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
-
-Milestone 1 was managed using [BowFolio GitHub Project Board M1](https://github.com/bowfolios/bowfolios/projects/1):
-
-![](images/project-board-1.png)
-
-### Milestone 2: Data model development
-
-The goal of Milestone 2 was to implement the data model: the underlying set of Mongo Collections and the operations upon them that would support the BowFolio application.
-
-Milestone 2 was managed using [BowFolio GitHub Project Board M2](https://github.com/bowfolios/bowfolios/projects/2):
-
-![](images/project-board-2.png)
-
-## Milestone 3: Final touches
-
-The goal of Milestone 3 was to clean up the code base and fix minor UI issues.
-
-Milestone 3 was managed using [BowFolio GitHub Project Board M3](https://github.com/bowfolios/bowfolios/projects/3):
-
-![](images/project-board-3.png)
-
-As of the time of writing, this screenshot shows that there is an ongoing task (i.e. this writing).
-
-## Walkthrough videos
-
-BowFolios is intended as a model of how an ICS 314 project could be organized and executed. Here are several videos totalling about an hour that walks you through various aspects of the system:
-
-* [BowFolios Part 1: Application Overview (5 min)](https://www.youtube.com/watch?v=gr55MMWD8ok)
-* [BowFolios Part 2: Application Structure and Control Flow (14 min)](https://www.youtube.com/watch?v=LYh06HSYv54)
-* [BowFolios Part 3: Data Model, Data Initialization, Publications and Subscriptions (22 min)](https://www.youtube.com/watch?v=2F2Cw5Ipubc)
-* [BowFolios Part 4: Forms and Meteor Methods (20 min)](https://www.youtube.com/watch?v=5qim9mXpbTM)
-* [BowFolios Part 5: Loading data using Assets (8 min)](https://www.youtube.com/watch?v=NzrTzBPCJPo)
-
-## Example enhancements
+## Beyond the Basics
 
 There are a number of simple enhancements you can make to the system to become better acquainted with the codebase:
 
-* Display an email icon that links to a mailto: for each user in the profile page.
-* Display the home page for each project as a home icon. Click on it to visit the Project's home page.
-* Add social media accounts to the profile (facebook, twitter, instagram) and show the associated icon in the Profile.
-* The system supports the definition of users with an Admin role, but there are no Admin-specific capabilities. Implement some Admin-specific functions, such as the ability to delete users or add/modify/delete Interests.
-* There is no way to edit or delete a project definition. Add this ability.
-* It would be nice for users to only be able to edit the Projects that they have created.  Add an "owner" field to the Project collection, and then only allow a user to edit a Project definition if they own it.
-* The error message associated with trying to define a new Project with an existing Project name is uninformative. Try it out for yourself to see what happens. Fix this by improving the associated Meteor Method to "catch" errors of this type and re-throw with a more informative error message.
+
+* A rating system for buyers and sellers.
+* Map-based interface to indicate where goods are.
+* On-site payment / PCI compliance
+* Fixing XSS and common web apps exploits
+
 
 
 
