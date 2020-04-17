@@ -54,6 +54,12 @@ This page will allow users to add listings for selling.
 
 ![](images/add-listing.png)
 
+### Listing Page
+
+Users can view the added listings that they had created.
+
+![](images/listitemmockup1.PNG)
+
 ### Profiles Page
 
 Users can search and browse the profiles database and see what items are listed by profiles.
@@ -145,8 +151,11 @@ Github repository:
 Galaxy:
 * 
 
+![](images/m1.png)
+
 Milestone 1 page:
 * [https://github.com/renigmaflea/renigmaflea/projects/1](https://github.com/renigmaflea/renigmaflea/projects/1)
+
 
 Milestone 2 page:
 * [https://github.com/renigmaflea/renigmaflea/projects/2](https://github.com/renigmaflea/renigmaflea/projects/2)
