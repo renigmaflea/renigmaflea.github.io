@@ -5,6 +5,7 @@
 * [Community Feedback](#community-feedback)
 * [Developer Guide](#developer-guide)
 * [Beyond the Basics](#beyond-the-basics)
+* [Project Links](#project-links)
 
 ## Overview
 
@@ -137,6 +138,15 @@ There are a number of simple enhancements you can make to the system to become b
 * On-site payment / PCI compliance
 * Fixing XSS and common web apps exploits
 
+# Project Links
+Github repository:
+* [https://github.com/renigmaflea/renigmaflea](https://github.com/renigmaflea/renigmaflea)
+
+Milestone 1 page:
+* [https://github.com/renigmaflea/renigmaflea/projects/1](https://github.com/renigmaflea/renigmaflea/projects/1)
+
+Milestone 2 page:
+* [https://github.com/renigmaflea/renigmaflea/projects/2](https://github.com/renigmaflea/renigmaflea/projects/2)
 
 
 
