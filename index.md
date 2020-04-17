@@ -8,7 +8,7 @@
 
 ## Overview
 
-Renigma is a web application for UH students, faculty, and staff to buy and sell goods. 
+Rainbow Retail is a web application for UH students, faculty, and staff to buy and sell goods. 
 
 It is designed to be a Craigslist alternative with factors such as:
 
@@ -17,9 +17,11 @@ It is designed to be a Craigslist alternative with factors such as:
 * Transactions are expected to occur on-campus. If a seller wants to meet off-campus, that can be a red-flag.
 * Because buyers and sellers are from UHM, the goods and services will be relevant to UH students.
 
+Renigma, the organization buidling and maintaining Rainbow Retail, can be found on [Github](https://github.com/renigmaflea)
+
 ## User Guide
 
-This section will provide a walkthrough of using Renigma Flea's user interface and how to start your Flea Market Career.
+This section will provide a walkthrough of using Rainbow Retail Flea's user interface and how to start your Flea Market Career.
 
 ### Landing Page
 
@@ -33,34 +35,39 @@ The landing page is presented to users when they visit the top-level URL to the 
 
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
 
-![](images/Renigma-Flea-Login.PNG)
+![](images/signin-page.png)
 
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
-![](images/renigma-flea-signup.PNG)
+![](images/signup-page.png)
 
-### Categories (mock up)
+### Categories
 
 Users can browse through categories of items that is commonly bought or sold within the UH Manoa campus.
 
 ![](images/categories.png)
 
-### Search For Listings
-
-This page will allow users to search for listings created by fellow Alumni.
-
-![](images/renigma-flea-searched-listings.PNG)
-
-
 ### Add Listings
 
 This page will allow users to add listings for selling.
 
-![](images/renigma-flea-add-listing.PNG)
+![](images/add-listing.png)
+
+### Profiles Page
+
+Users can search and browse the profiles database and see what items are listed by profiles.
+
+![](images/profile.png)
+
+### About Us
+
+Interested in the project and the team? The information about the project can be found in the About Us page.
+
+![](images/about.png)
 
 ## Community Feedback
 
-We are interested in your experience using Bowfolio! You can contact us directly by direct messaging any of our members on [Github](https://github.com/renigmaflea/renigmaflea)
+We are interested in your experience using Rainbow Retail! You can contact us directly by direct messaging any of our members on [Github](https://github.com/renigmaflea/renigmaflea)
 
 ### Team Members
 * Patima Poochai
@@ -95,7 +102,7 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 ### Application Design
 
-Renigma Flea is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Renigma Flea.
+Rainbow Retail Flea is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Rainbow Retail Flea.
 
 ## Initialization
 
