@@ -149,7 +149,7 @@ Github repository:
 * [https://github.com/renigmaflea/renigmaflea](https://github.com/renigmaflea/renigmaflea)
 
 Galaxy:
-* [rainbowretail.meteorapp.com](rainbowretail.meteorapp.com)
+* [http://rainbowretail.meteorapp.com/#/](http://rainbowretail.meteorapp.com/#/)
 
 
 Milestone 1 page:
