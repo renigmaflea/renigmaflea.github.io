@@ -157,12 +157,12 @@ Milestone 1 page:
 
 The goal of this milestone was to create the basic fundamentals of our websites, and showcase what our website will eventually be.
 
-![](images/m1.png)
-
+<img src="doc/m1.png" alt="m1">
 
 Milestone 2 page:
 * [https://github.com/renigmaflea/renigmaflea/projects/2](https://github.com/renigmaflea/renigmaflea/projects/2)
 
+<img src="doc/m2.png" alt="m2">
 
 
 
