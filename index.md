@@ -28,7 +28,7 @@ This section will provide a walkthrough of using Rainbow Retail Flea's user inte
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-![](images/renigma-flea-landing.PNG)
+![](images/landing.png)
 
 
 
