@@ -151,10 +151,13 @@ Github repository:
 Galaxy:
 * 
 
-![](images/m1.png)
 
 Milestone 1 page:
 * [https://github.com/renigmaflea/renigmaflea/projects/1](https://github.com/renigmaflea/renigmaflea/projects/1)
+
+The goal of this milestone was to create the basic fundamentals of our websites, and showcase what our website will eventually be.
+
+![](images/m1.png)
 
 
 Milestone 2 page:
