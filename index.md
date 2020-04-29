@@ -70,7 +70,7 @@ Users can search and browse the profiles database and see what items are listed 
 
 Interested in the project and the team? The information about the project can be found in the About Us page.
 
-![](images/aboutuspage2.png)
+![](images/aboutuspage2.PNG)
 
 ## Community Feedback
 
