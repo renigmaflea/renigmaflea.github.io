@@ -72,6 +72,18 @@ Interested in the project and the team? The information about the project can be
 
 ![](images/aboutuspage2.PNG)
 
+### Admin Page
+
+The admin page is much like the listing page showcasing all the items that have been listed from other users, the admin can delete other user's listings.
+
+![](images/adminpage2.PNG)
+
+### Report Page
+
+The report age is where all the reported items by users go to. Admins can review the listings and choose to delete from here.
+
+![](images/adminreport2.PNG)
+
 ## Community Feedback
 
 We are interested in your experience using Rainbow Retail! You can contact us directly by direct messaging any of our members on [Github](https://github.com/renigmaflea/renigmaflea)
