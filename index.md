@@ -28,7 +28,7 @@ This section will provide a walkthrough of using Rainbow Retail Flea's user inte
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-![](images/Landingpage2.png)
+![](images/Landingpage2.PNG)
 
 
 
@@ -36,11 +36,11 @@ The landing page is presented to users when they visit the top-level URL to the 
 
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
 
-![](images/signinpage2.png)
+![](images/signinpage2.PNG)
 
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
-![](images/registerpage2.png)
+![](images/registerpage2.PNG)
 
 ### Categories
 
