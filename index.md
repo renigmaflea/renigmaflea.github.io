@@ -167,7 +167,7 @@ Milestone 2 page:
 Milestone 3 page:
 * [https://github.com/renigmaflea/renigmaflea/projects/3](https://github.com/renigmaflea/renigmaflea/projects/3)
 
-![](images/m3.PNG)
+![](images/m3.png)
 
 
 
