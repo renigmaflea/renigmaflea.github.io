@@ -28,7 +28,7 @@ This section will provide a walkthrough of using Rainbow Retail Flea's user inte
 
 The landing page is presented to users when they visit the top-level URL to the site.
 
-![](images/landing.png)
+![](images/Landingpage2.png)
 
 
 
@@ -36,11 +36,11 @@ The landing page is presented to users when they visit the top-level URL to the 
 
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
 
-![](images/signin-page.png)
+![](images/signinpage2.png)
 
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
-![](images/signup-page.png)
+![](images/registerpage2.png)
 
 ### Categories
 
@@ -58,7 +58,7 @@ This page will allow users to add listings for selling.
 
 Users can view the added listings that they had created.
 
-![](images/listitemmockup1.PNG)
+![](images/listeditemspage2.PNG)
 
 ### Profiles Page
 
@@ -70,7 +70,7 @@ Users can search and browse the profiles database and see what items are listed 
 
 Interested in the project and the team? The information about the project can be found in the About Us page.
 
-![](images/about.png)
+![](images/aboutuspage2.png)
 
 ## Community Feedback
 
