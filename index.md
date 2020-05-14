@@ -50,7 +50,7 @@ Click on the "Login" button in the upper right corner of the navbar, then select
 
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
-![](images/registerpage2.PNG)
+![](images/registerpage2.png)
 
 
 ### Add Listings
@@ -63,7 +63,7 @@ This page will allow users to add listings for selling.
 
 Users can view the added listings that they had created and other members' listings.
 
-![](images/listeditempage2.png)
+![](images/listitempage2.png)
 
 ### Categories
 
@@ -111,11 +111,11 @@ The application was tested by five members from the UH Community. The overall im
 
 There are several small aesthetic issues with the site. "\[It\] looks pretty nice," says Brandon Au, "\[but\]when you click on the post item your hotbar is kinda wack. I think it's pretty nice overall." Another problem with the look of the page is shared with Leighton Villanueva, ACM VP. "Got some grammar errors on your about us page, I dont like that image in the middle," he stated. However, he added: "I like the overall layout of everything. Nice color scheme."
 
-Not all of the feedback were about the site's look, as some was critiquing the site's content. "I like the about us page and the explanation of the app and User policy," Ross Kurizaki wrote, "so people can't just pawn of stolen mopeds."
+Not all of the feedback were about the site's look, as some was critiquing the site's choice in content. "I like the about us page and the explanation of the app and User policy," Ross Kurizaki wrote, "so people can't just pawn of stolen mopeds."
 
 In conclusion, the site is perceived as still growing. People are seeing flaws in the design. but
 they still liked the general idea of the site. They lowered their expectation a little to properly
-asses our web application. The feedback that defined our observations is from Collin Wong. He stated, "\[The\] website looks pretty clean. I like the slider a lot, the landing page looks good, website functionality is fast/smooth."
+asses our web application. The feedback that defined their observations is from Collin Wong. He stated, "\[The\] website looks pretty clean. I like the slider a lot, the landing page looks good, website functionality is fast/smooth."
 
 We are interested in your experience using Rainbow Retail! You can contact us directly by directly messaging any of our members on [Github](https://github.com/renigmaflea/renigmaflea)
 
