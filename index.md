@@ -63,7 +63,7 @@ This page will allow users to add listings for selling.
 
 Users can view the added listings that they had created and other members' listings.
 
-![](images/listitempage2.png)
+![](images/listitempage.png)
 
 ### Categories
 
