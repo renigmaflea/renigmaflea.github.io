@@ -26,27 +26,32 @@ This section will provide a walkthrough of using Rainbow Retail Flea's user inte
 
 ### Landing Page
 
-The landing page is presented to users when they visit the top-level URL to the site.
+The landing page is presented to users when they visit the top-level URL to the site. The slogan, "Cheapest <item name> near you" is animated. The highlighted keyword would change every 3 seconds, signifying the site's wide range of products.
 
-![](images/Landingpage2.PNG)
+![](images/LandingPage1.png)
 
+Users are greeted with explanations of the app's features. Carousels are used to continuously change
+the screenshots.
 
+![](images/LandingPage2.png)
+
+![](images/LandingPage3.png)
+
+Anonymous users are encouraged to sign up with the site. The button would take new users to the sign
+up page.
+
+![](images/LandingPage4.png)
 
 ### Sign in and sign up
 
 Click on the "Login" button in the upper right corner of the navbar, then select "Sign in" to go to the following page and login. You must have been previously registered with the system to use this option:
 
-![](images/signinpage2.PNG)
+![](images/signin-page.png)
 
 Alternatively, you can select "Sign up" to go to the following page and register as a new user:
 
 ![](images/registerpage2.PNG)
 
-### Categories
-
-Users can browse through categories of items that is commonly bought or sold within the UH Manoa campus.
-
-![](images/categories.png)
 
 ### Add Listings
 
@@ -56,9 +61,19 @@ This page will allow users to add listings for selling.
 
 ### Listing Page
 
-Users can view the added listings that they had created.
+Users can view the added listings that they had created and other members' listings.
 
-![](images/listeditemspage2.PNG)
+![](images/listeditempage2.png)
+
+### Categories
+
+Users can browse through categories of items that is commonly bought or sold within the UH Manoa campus.
+
+![](images/categories.png)
+
+Clicking on a category would display all of the related listings in that category.
+
+![](images/categoriestech.png)
 
 ### Profiles Page
 
@@ -66,23 +81,29 @@ Users can search and browse the profiles database and see what items are listed 
 
 ![](images/profile.png)
 
+### Private Chat Page
+
+Users can privately send messages to another user with the contact seller button. Each chat will be displayed in the upper right corner of the navigation bar.
+
+![](images/chat.png)
+
 ### About Us
 
 Interested in the project and the team? The information about the project can be found in the About Us page.
 
-![](images/aboutuspage2.PNG)
+![](images/aboutuspage2.png)
 
 ### Admin Page
 
 The admin page is much like the listing page showcasing all the items that have been listed from other users, the admin can delete other user's listings.
 
-![](images/adminpage2.PNG)
+![](images/adminpage2.png)
 
 ### Report Page
 
 The report age is where all the reported items by users go to. Admins can review the listings and choose to delete from here.
 
-![](images/adminreport2.PNG)
+![](images/adminreport2.png)
 
 ## Community Feedback
 
