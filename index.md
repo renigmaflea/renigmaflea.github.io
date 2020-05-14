@@ -79,7 +79,7 @@ Clicking on a category would display all of the related listings in that categor
 
 Users can search and browse the profiles database and see what items are listed by profiles.
 
-![](images/profile.png)
+![](images/profilebutton.PNG)
 
 ### Private Chat Page
 
