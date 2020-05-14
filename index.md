@@ -63,7 +63,7 @@ This page will allow users to add listings for selling.
 
 Users can view the added listings that they had created and other members' listings.
 
-![](images/listitempage.png)
+![](images/listitembutton.PNG)
 
 ### Categories
 
@@ -73,7 +73,7 @@ Users can browse through categories of items that is commonly bought or sold wit
 
 Clicking on a category would display all of the related listings in that category.
 
-![](images/categoriestech.png)
+![](images/categoryitembutton.PNG)
 
 ### Profiles Page
 
@@ -97,7 +97,7 @@ Interested in the project and the team? The information about the project can be
 
 The admin page is much like the listing page showcasing all the items that have been listed from other users, the admin can delete other user's listings.
 
-![](images/adminpage2.png)
+![](images/adminlistingbutton.PNG)
 
 ### Report Page
 
